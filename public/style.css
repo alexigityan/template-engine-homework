@@ -1,0 +1,46 @@
+#lang-select {
+  position:fixed;
+  top:0;
+  right:0;
+  background-color:lightblue;
+  padding:0.7em;
+  border-bottom-left-radius: 1em;
+}
+
+#layout {
+  width:90%;
+  margin:auto;
+}
+
+#header {
+  border-bottom: 1px solid gray;
+}
+
+#aside {
+  padding:1em 0.5em;
+  text-align: center;
+  border-bottom: 1px solid gray;
+
+}
+#aside button {
+  background-color:white;
+  border:none;
+  cursor:pointer;
+  display:block;
+  padding:0.5em;
+  margin:1em;
+  border-bottom: 0.5px solid lightgray;
+}
+#aside button:hover {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+#main h4 {
+  font-style: italic;
+  text-align:center;
+}
+
+#main p {
+  padding:1em;
+}
